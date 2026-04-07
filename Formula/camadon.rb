@@ -6,11 +6,11 @@ class Camadon < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Camadon/homebrew-tap/releases/download/v#{version}/camadon-#{version}-darwin-arm64.tar.gz"
-      sha256 "PLACEHOLDER_ARM64_SHA256"
+      url "https://github.com/Camadon/homebrew-tap/releases/download/v1.0.0/camadon-1.0.0-darwin-arm64.tar.gz"
+      sha256 "92139d0a257d8cc6705ac902ab6c222e787084a5bbc758b6d5c0dfe4143d5aca"
     elsif Hardware::CPU.intel?
-      url "https://github.com/Camadon/homebrew-tap/releases/download/v#{version}/camadon-#{version}-darwin-x86_64.tar.gz"
-      sha256 "PLACEHOLDER_X86_64_SHA256"
+      url "https://github.com/Camadon/homebrew-tap/releases/download/v1.0.0/camadon-1.0.0-darwin-x86_64.tar.gz"
+      sha256 "e667b647654752d8d7ed02fc59213fb6ebff4b2c0dd43ade6093e15f047fd55d"
     end
   end
 
