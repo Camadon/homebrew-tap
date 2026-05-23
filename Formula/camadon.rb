@@ -1,16 +1,16 @@
 class Camadon < Formula
   desc "Desktop relay client for the Camadon mobile IDE"
   homepage "https://camadon.ai"
-  version "1.0.2"
+  version "1.0.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Camadon/homebrew-tap/releases/download/v1.0.2/camadon-1.0.2-darwin-arm64.tar.gz"
-      sha256 "b45be869d8feb1be2a8b51bda04a412460ec3c01d192ab7a0ddcd1d76d7130eb"
+      url "https://github.com/Camadon/homebrew-tap/releases/download/v1.0.3/camadon-1.0.3-darwin-arm64.tar.gz"
+      sha256 "3af23960c136ccd0542be6995c34575537246364a7596d4f12682b0a5dbb4ed8"
     elsif Hardware::CPU.intel?
-      url "https://github.com/Camadon/homebrew-tap/releases/download/v1.0.2/camadon-1.0.2-darwin-x86_64.tar.gz"
-      sha256 "ae995a8b50304fa379968c12c61665f8c6482162298390577fedad351d2af569"
+      url "https://github.com/Camadon/homebrew-tap/releases/download/v1.0.3/camadon-1.0.3-darwin-x86_64.tar.gz"
+      sha256 "7b42f72c0d452682fecc988e0b664e6cdadc20ac005800f34bc4bb96db74944d"
     end
   end
 
